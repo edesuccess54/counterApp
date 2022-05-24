@@ -1,7 +1,4 @@
 
-// const add = document.querySelector('.add');
-// const resetCount = document.querySelector('.reset');
-// const sub = document.querySelector('.subtract');
 const count = document.querySelector('.counter');
 const buttons = document.querySelector('.buttons');
 
@@ -31,15 +28,3 @@ function setColors() {
         count.style.color = '#fff';
     }
 }
-
-// add.addEventListener('click', () => {
-//   count.innerHTML++;
-// });
-
-// sub.addEventListener('click', () => {
-//     count.innerHTML--;
-// });
-
-// resetCount.addEventListener('click', () => {
-//     count.innerHTML = 0;
-// });
